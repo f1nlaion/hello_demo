@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh app@ec2-35-176-39-223.eu-west-2.compute.amazonaws.com <<EOF
+ssh -tt app@ec2-35-176-39-223.eu-west-2.compute.amazonaws.com <<EOF
   cd /home/ubuntu/hello_demo/
   git pull
   npm install --production
