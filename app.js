@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/',function(req,res) {
-  res.send("Hello CONTINUOUS DELIVERY BABYYYYY!!!");
+  res.send("Hello CONTINUOUS DELIVERY BABYYY!!!");
 });
 
 app.listen(4000);
